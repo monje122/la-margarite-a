@@ -2642,7 +2642,21 @@ function actualizarHoraVenezuela() {
   contenedor.textContent = `📅 ${formato}`;
 }
 
+async function guardarLinkWhatsapp() {
+  const link = document.getElementById('inputWhatsapp').value.trim();
+  if (!link) return alert('Ingresa un enlace válido');
 
+  const { error } = await supabase
+    .from('configuracion')
+    .upsert([{ clave: 'link_whatsapp', valore: link }], { onConflict: 'clave' });
+
+  if (error) {
+    alert('Error guardando el enlace');
+    console.error(error);
+  } else {
+    alert('Enlace guardado');
+  }
+}
 async function cargarLinkWhatsapp() {
   const { data, error } = await supabase
     .from('configuracion')
