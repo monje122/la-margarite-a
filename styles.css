@@ -264,15 +264,19 @@ body {
 #pago h2, #pago p {
   font-weight: bold;  /* Esto hará que el texto sea más grueso */
 }
-body {
+html, body {
   margin: 0;
   padding: 0;
-  background-image: url('https://i.postimg.cc/vHtJkYCy/5eeacade-282f-4001-9678-01090333315f.png'); /* o sube la imagen a PostImage u otro CDN y usa su URL */
+  min-height: 100vh; /* asegura que cubra toda la altura */
+  height: 100%;
+  background-image: url('https://i.postimg.cc/vHtJkYCy/5eeacade-282f-4001-9678-01090333315f.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; /* (opcional) mantiene el fondo fijo al hacer scroll */
   font-family: sans-serif;
 }
+
 .estado-circulo {
   display: inline-block;
   width: 25px;
