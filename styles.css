@@ -460,7 +460,7 @@ a[href*="wa.me"]:hover {
   padding: 20px;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1200px;  /* Aumenta según el espacio que necesites */
+  max-width: 720px;  /* Aumenta según el espacio que necesites */
   margin: 0 auto;
 }
 @media (max-width: 600px) {
