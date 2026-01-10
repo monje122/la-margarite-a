@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https:/xn--bingolamargaritea-uxb.com/sitemap.xml
