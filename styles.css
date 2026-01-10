@@ -469,3 +469,12 @@ a[href*="wa.me"]:hover {
     background-color: #e4ffe3;
   }
 }
+.pago-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  color: #000;
+  max-width: 500px;
+  margin: auto;
+}
