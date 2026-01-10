@@ -467,7 +467,6 @@ a[href*="wa.me"]:hover {
   #admin-panel {
     width: 100%;
     max-width: 1200%;
-    margin: 0 auto;
     padding: 15px;
     background-color: #e4ffe3;
   }
