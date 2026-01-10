@@ -143,23 +143,18 @@
 
   <!-- Ventana de pago -->
   <section id="pago" class="oculto">
+  <div class="pago-box">
     <h2>Pago Móvil</h2>
     <p>Banco: Banesco(0134)</p>
-    <p>Teléfono:0424-8226806</p>
+    <p>Teléfono: 0424-8226806</p>
     <p>Cédula: 15126700</p>
     <p>Monto a pagar: <span id="monto-pago"></span> Bs</p>
     <input type="file" accept="image/*" id="comprobante">
-    <input type="text" 
-       id="referencia4dig"
-       maxlength="4"
-       placeholder="Últimos 4 dígitos de la referencia"
-       style="margin-top: 10px;" />
-
-   <button id="btnEnviarComprobante" onclick="enviarComprobante()">Enviar comprobante</button>
-
-
+    <input type="text" id="referencia4dig" maxlength="4" placeholder="Últimos 4 dígitos de la referencia">
+    <button id="btnEnviarComprobante" onclick="enviarComprobante()">Enviar comprobante</button>
     <button onclick="mostrarVentana('bienvenida')">Inicio</button>
-  </section>
+  </div>
+</section>
 
   <!-- Ventana usuario -->
   <section id="usuario" class="oculto">
