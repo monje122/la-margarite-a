@@ -459,9 +459,15 @@ a[href*="wa.me"]:hover {
   min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;  /* Aumenta según el espacio que necesites */
+  margin: 0 auto;
 }
 @media (max-width: 600px) {
   #admin-panel {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
     background-size: cover;
     background-position: center;
   }
