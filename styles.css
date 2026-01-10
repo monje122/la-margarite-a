@@ -452,7 +452,7 @@ a[href*="wa.me"]:hover {
   box-sizing: border-box;
 }
 #admin-panel {
-  background-image: url('https://i.postimg.cc/y8G3dQ05/istockphoto-946957600-612x612.jpg'); /* coloca tu imagen deseada aquí */
+  background-color: #e4ffe3; /* coloca tu imagen deseada aquí */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -468,7 +468,6 @@ a[href*="wa.me"]:hover {
     width: 100%;
     max-width: 100%;
     padding: 15px;
-    background-size: cover;
-    background-position: center;
+    background-color: #e4ffe3;
   }
 }
