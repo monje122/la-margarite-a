@@ -1697,7 +1697,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   console.log('🚀 Inicializando sistema...');
   
   // Crear tabla de sesiones si no existe
-  
+   document.getElementById('modal-terminos').classList.remove('oculto');
   
   await obtenerTotalCartones();
   await cargarPrecioPorCarton();
@@ -1727,7 +1727,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   await cargarLinkWhatsapp();
   
   // Mostrar términos
-  document.getElementById('modal-terminos').classList.remove('oculto');
+ 
   
   console.log('✅ Sistema inicializado correctamente');
 });
